@@ -1,1 +1,2 @@
 # SpaceStationTracker
+This is one of the first custom skills I'd created in the Alexa Developer Console. It retrieves either the current location (geographic coordinates + spot on Earth) or the current speed (km/hr) of the International Space Station in real time based off of the user's request. I used the free API provided by https://wheretheiss.at/ and reverse geocoding API provided by opencagedata.com. This skill can be deployed on all Alexa devices.
