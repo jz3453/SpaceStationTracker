@@ -1,0 +1,75 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "space station tracker",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "Stop"
+          ]
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "hello",
+            "how are you",
+            "say hi world",
+            "say hi",
+            "hi",
+            "say hello world",
+            "say hello"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "GetLocation",
+          "slots": [],
+          "samples": [
+            "Where is the International Space Station right now",
+            "Where is the ISS right now",
+            "what is the current location of the International Space Station",
+            "what is the current location of the ISS",
+            "Where is the International Space Station in space",
+            "Where is the International Space Station currently at",
+            "What is the location of the ISS",
+            "What is the location of the International Space Station",
+            "Where is the ISS",
+            "Where is the International Space Station"
+          ]
+        },
+        {
+          "name": "GetSpeed",
+          "slots": [],
+          "samples": [
+            "What is the current speed of the International Space Station",
+            "What is the current speed of the ISS",
+            "How fast is the ISS",
+            "What is the speed of the ISS",
+            "What is the speed",
+            "How fast is the International Space Station traveling",
+            "What is the speed of the International Space Station"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "9"
+}
